@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter text box</title>
+  <style>
+    
+    .profile {
+      vertical-align: top;
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 75px;
+      
+    }
+    .tweet {
+      height: 60px;
+      width: 320px;
+      font-size: 20px;
+      padding-left: 10px;
+      border: none;
+    }
+    .tweet-button {
+      background-color: royalblue;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: none;
+      border-radius: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .twitter-box {
+      padding: 15px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="twitter-box">
+    <img class="profile" src="cat.jpg" alt="">
+    <input class="tweet" type="text" placeholder="What's happening?">
+    <button class="tweet-button">
+      Tweet
+    </button>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Friend FB</title>
+  <style>
+    .profile-grid {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+    }
+    .profile {
+      width: 200px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      margin-right: 10px;
+    }
+    .profile-picture {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .user-profile {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      vertical-align: top;
+    }
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+    }
+    .friends {
+      font-size: 16px;
+      color: gray;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+    .add-friend {
+      background-color: royalblue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+  </style>
+  
+</head>
+<body>
+  <div class="profile-grid">
+    <div class="profile">
+      <div>
+        <img class="profile-picture" src="cat.jpg" alt="">
+        <p class="name">
+          Oliver
+        </p>
+    
+        <div>
+          <img class="user-profile" src="dog2.jpg" alt="">
+          <p class="friends">
+            2 mutual friends
+          </p>
+        </div>
+    
+        <button class="add-friend">
+          Add Friend
+        </button>
+      </div>
+    </div>
+
+    <div class="profile">
+      <div>
+        <img class="profile-picture" src="cat2.jpg" alt="">
+        <p class="name">
+          Mimi
+        </p>
+    
+        <div>
+          <img class="user-profile" src="dog2.jpg" alt="">
+          <p class="friends">
+            3 mutual friends
+          </p>
+        </div>
+    
+        <button class="add-friend">
+          Add Friend
+        </button>
+      </div>
+    </div>
+
+    <div class="profile">
+      <div>
+        <img class="profile-picture" src="dog.jpg" alt="">
+        <p class="name">
+          Rex
+        </p>
+        
+        <div>
+          <img class="user-profile" src="dog2.jpg" alt="">
+          <p class="friends">
+            4 mutual friends
+          </p>
+        </div>
+    
+        <button class="add-friend">
+          Add Friend
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
